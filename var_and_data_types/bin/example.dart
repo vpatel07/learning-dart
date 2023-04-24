@@ -5,6 +5,6 @@ void main(List<String> args) {
   print(randomThing);
 
   final age =
-      200; /* final -> you can can the value that is assigned but you cannot re-assign. Different kind of immunibility */
+      200; /* final -> you can change the value that is assigned but you cannot re-assign. Different kind of immunibility */
   print(age);
 }
