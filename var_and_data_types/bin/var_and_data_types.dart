@@ -88,3 +88,11 @@ int getValue() {
   print("Function called");
   return 25;
 }
+
+int stuff(var x, int y) {
+  const int? unity = 56;
+  
+  late var foo = 22;
+  
+  print("$unity + $foo = $(unity + foo)");
+}
